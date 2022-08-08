@@ -1,0 +1,224 @@
+.container {
+  width: auto;
+  height: auto;
+  background-color: #f2f2f2;
+  overflow: auto;
+}
+
+
+
+.acc-lang {
+  background-color: #2E86A6;
+  text-align: right;
+}
+
+.acc-lang a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.acc {
+  display: inline;
+  margin-right: 20px;
+}
+
+.lang {
+  display: inline;
+  margin-right: 50px;
+}
+
+.logo {
+  background-image: url("../img/banner.jpg");
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.logo>img {
+  position: absolute;
+}
+
+
+/*  */
+.navbar {
+  line-height: 50px;
+  background-color: #2E86A6;
+  color: black;
+  margin-top: 15px;
+}
+
+.navbar1 {
+  margin-left: 400px;
+  margin-right: 15px;
+}
+
+.menu2 {
+  display: none;
+  padding-left: 0px;
+  width: 300px;
+  background: #2E86A6;
+}
+
+.menu1 li {
+  list-style: none;
+  list-style-type: none;
+  float: left;
+  position: relative;
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.menu1 li a {
+  text-decoration: none;
+  color: black;
+  padding: 5px 10px;
+}
+
+.menu1 li a:hover {
+  color: #fff;
+}
+
+.menu1 li:hover ul {
+  display: block;
+  position: absolute;
+  line-height: 30px;
+}
+
+.menu2 li {
+  float: none;
+  border: none;
+}
+
+.menu2 li a:hover {
+  color: white;
+}
+
+.form-group {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 30px;
+  margin-left: 170px;
+  margin-top: 15px;
+}
+
+.form-group input {
+  width: 200px;
+  height: 30px;
+  border-radius: 1px;
+  border: 1px solid #ccc;
+  padding: 0px;
+  position: absolute;
+}
+
+.form-group button {
+  width: 30px;
+  height: 32px;
+  position: absolute;
+  left: 171.5px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}
+
+/* content */
+
+.content {
+  width: 100%;
+  height: auto;
+  overflow: auto;
+}
+
+/*  */
+.menu-right {
+  float: right;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.title {
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+  background-color: sienna;
+}
+
+.menu {
+  border: 1px solid black;
+}
+
+li {
+  list-style-type: none;
+  margin-left: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  line-height: 3;
+}
+
+li a:hover {
+  color: royalblue;
+  text-decoration: none;
+}
+
+/*  */
+
+.rows{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+}
+
+.colums{
+  border: 1px solid #000;
+}
+
+.content-news {
+  margin-top: 30px;
+  float: left;
+  margin-left: 20px;
+}
+
+.title-content h1 {
+  font-weight: bold;
+  margin-left: 15px;
+}
+/*  */
+
+.noidung-tin{
+  margin-left: 15px;
+  border: 0px solid #000;
+  margin-right: 21%;
+}
+.tin{
+  display: flexbox;
+}
+.nd-tin h3 a{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+
+
+
+
+/*  */
+.footer {
+  background-color: #2E86A6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+footer {
+  background-color: slategray;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  margin-top: 20px;
+}
